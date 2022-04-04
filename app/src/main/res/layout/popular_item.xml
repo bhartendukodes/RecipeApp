@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="3dp"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/movieImgWide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/second"
+        android:scaleType="fitXY" />
+
+
+
+    <LinearLayout
+        android:id="@+id/fl_shadow_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+
+        <TextView
+            android:id="@+id/tvMovieTitleWide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="Recipe Name"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
